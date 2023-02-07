@@ -1,0 +1,232 @@
+.main{
+    margin: 0;
+    padding: 0;
+    height: 820px;
+    width: 100%;
+    background-color: rgb(231, 229, 229);
+}
+#head{
+    margin: auto;
+    height: 100px;
+    width: 85%;
+}
+.logo{
+    height: 100px;
+    width: 40%;
+    align-items: flex-start;
+    float: left;
+}
+.search{
+    display: flex;
+    height: 98px;
+    width: 55%;
+    float: right;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+#btn{
+    height: 40px;
+    width: 53%;
+    float: right;
+}
+.btn{
+    border: none;
+    box-sizing: border-box;
+    padding-right: ;
+    padding: 10px;
+    background-color: rgba(240, 248, 255, 0);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.btn:hover{
+    transform: skew(-13deg);
+    background-color: rgb(49, 49, 49);
+    color: #fff;
+}
+#srch{
+    height: 45px;
+    width: 48%;
+}
+input{
+    background-color: rgb(31, 30, 30);
+    height: 36px;
+    width: 300px;
+    border-radius: 4px;
+    color: aliceblue;
+}
+#nav{
+    height: 50px;
+    width: 100%;
+    background-color: orangered;
+    color: #fff;
+}
+.innerdiv{
+    height: 50px;
+    width: 85%;
+    margin: auto;
+}
+.menu{
+    display: flex;
+    height: 48px;
+    width: 65%;
+    justify-content: space-around;
+    float: left;
+    cursor: pointer;
+}
+#menu{
+    color: #fff;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    font-family: serif;
+    transition: 0.5s;
+}
+#menu:hover{
+    transform: skew(-13deg);
+    background-color: rgb(46, 46, 46);
+}
+.country{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 30%;
+    height: 48px;
+    float: right;
+}
+.pic{
+    width: 85%;
+    height: 450px;
+    margin: auto;
+    background-image: url(./img/slidr_immages.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#nav2{
+    padding-top: 15px;
+    box-sizing: border-box;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(46, 46, 46);
+    color: #fff;
+    font-size: small;
+    font-family: 'Franklin Gothic Medium';
+}
+.fbox{
+    width: 90%;
+    height: 150px;
+    margin: auto;
+    padding: 65px 0 0 0;
+}
+#lin1{
+    height: 45px;
+    width: 528px;
+    background-image: url(./img/slider_add.png);
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 38px;
+    padding-left: 5px;
+    margin-bottom: 5px;
+}
+#lin2{
+    height: 45px;
+    width: 528px;
+    background-image: url(./img/sldr_add_2.png);
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.txt{
+    height: 218px;
+    width: 85%;
+    margin: auto;
+}
+.section2{
+    height: 658px;
+    width: 100%;
+    margin: 0;padding: 0;
+    background-color: #fff;
+}
+.row{
+    display: flex;
+    height: 298px;
+    width: 85%;
+    margin: auto;
+    justify-content: space-evenly;
+}
+.row1{
+    margin-bottom: 30px;
+}
+.row2{
+    margin-bottom: 30px;
+}
+.box{
+    position: relative;
+    height: 300px;
+    width: 265px;
+    box-shadow: inset;
+    border: 2px solid rgb(241, 238, 238);
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: all 1s ease;
+}
+.box:hover{
+    border: 2px solid darkgray;
+}
+.img img{
+    margin-top: 103px;
+    height: 134px;
+    width: 242px;
+}
+.nam{
+    background-color: rgb(20, 20, 20);
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    height: 54px;
+    width: 260px;
+    font-size: 17px;
+    padding-top: 15px;
+    box-sizing: border-box;
+}
+.footer{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(32, 32, 32);
+}
+.half{
+    font-size: 12px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 12px 0 0 49px;
+    height: 40px;
+    width: 50%;
+    float: left;
+    color: #fff;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: rgba(41, 40, 40, 0.644);
+    border-radius: 4px;
+}
+.box:hover .overlay{
+    opacity: 1;
+}
+.texti{
+    color: #fff;
+    font-size: 14px;
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    text-align: initial;
+    transform: translate(-65% , -50%);
+}
